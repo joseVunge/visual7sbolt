@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Plus, Search, Filter, MapPin, Bed, Bath, Square, Edit, Trash2 } from 'lucide-react';
+import { Plus, Search, Filter, MapPin, Bed, Bath, Square, Edit, Trash2, Building } from 'lucide-react';
 
 const Properties: React.FC = () => {
   const [searchTerm, setSearchTerm] = useState('');

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Plus, Search, Filter, Calendar, Gauge, Fuel, Edit, Trash2 } from 'lucide-react';
+import { Plus, Search, Filter, Calendar, Gauge, Fuel, Edit, Trash2, Car } from 'lucide-react';
 
 const Vehicles: React.FC = () => {
   const [searchTerm, setSearchTerm] = useState('');
@@ -36,7 +36,7 @@ const Vehicles: React.FC = () => {
       brand: 'BMW',
       model: 'X3',
       year: 2023,
-      price: 'AOA 1.000.000.000',
+      price: 'AOA 500.000.000',
       mileage: '5.000 km',
       fuel: 'Gasolina',
       image: 'https://wallpapercave.com/wp/wp1846379.jpg',
