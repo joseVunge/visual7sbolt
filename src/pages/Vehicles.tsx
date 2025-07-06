@@ -8,11 +8,11 @@ const Vehicles: React.FC = () => {
   const vehicles = [
     {
       id: 1,
-      title: 'Honda Civic 2022',
-      brand: 'Honda',
-      model: 'Civic',
+      title: 'Lamborghini Huracán 2022',
+      brand: 'Huracán',
+      model: 'Huracán',
       year: 2022,
-      price: 'R$ 95.000',
+      price: 'AOA 500.000.000',
       mileage: '15.000 km',
       fuel: 'Flex',
       image: 'https://images.pexels.com/photos/3802510/pexels-photo-3802510.jpeg?auto=compress&cs=tinysrgb&w=400',
@@ -20,11 +20,11 @@ const Vehicles: React.FC = () => {
     },
     {
       id: 2,
-      title: 'Toyota Corolla 2021',
-      brand: 'Toyota',
-      model: 'Corolla',
+      title: 'Lamborghini Murciélago 2021',
+      brand: 'Murciélago',
+      model: 'Murciélago',
       year: 2021,
-      price: 'R$ 85.000',
+      price: 'AOA 6000.000.000',
       mileage: '25.000 km',
       fuel: 'Flex',
       image: 'https://images.pexels.com/photos/3802508/pexels-photo-3802508.jpeg?auto=compress&cs=tinysrgb&w=400',
@@ -36,10 +36,10 @@ const Vehicles: React.FC = () => {
       brand: 'BMW',
       model: 'X3',
       year: 2023,
-      price: 'R$ 280.000',
+      price: 'AOA 1.000.000.000',
       mileage: '5.000 km',
       fuel: 'Gasolina',
-      image: 'https://images.pexels.com/photos/3802503/pexels-photo-3802503.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: 'https://wallpapercave.com/wp/wp1846379.jpg',
       status: 'Disponível'
     }
   ];
